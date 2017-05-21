@@ -1,1 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
+/.idea/
+/algorithms/target/
+/exercises.iml
+/datastructure/target/
+/algorithms/algorithms.iml
+/datastructure/datastructure.iml

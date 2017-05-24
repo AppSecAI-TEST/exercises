@@ -1,4 +1,4 @@
-package org.david.exercises.solid.o.sol;
+package org.david.exercises.solid.s.sol;
 
 import java.io.PrintStream;
 

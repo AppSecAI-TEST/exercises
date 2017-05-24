@@ -1,4 +1,4 @@
-package org.david.exercises.solid.o;
+package org.david.exercises.solid.s;
 
 /**
  * Created by David Marques on 23/05/2017.

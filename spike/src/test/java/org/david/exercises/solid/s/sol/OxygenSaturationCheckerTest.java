@@ -1,7 +1,7 @@
-package org.david.exercises.solid.o.sol;
+package org.david.exercises.solid.s.sol;
 
 
-import org.david.exercises.solid.o.MeterStream;
+import org.david.exercises.solid.s.MeterStream;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

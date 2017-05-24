@@ -13,10 +13,13 @@
 
     <modules>
         <module>datastructure</module>
+        <module>algorithms</module>
+        <module>spike</module>
     </modules>
 
     <dependencyManagement>
         <dependencies>
+            <!--Test dependencies-->
             <dependency>
                 <groupId>org.assertj</groupId>
                 <artifactId>assertj-guava</artifactId>
@@ -35,10 +38,16 @@
                 <version>1.10.19</version>
                 <scope>test</scope>
             </dependency>
+            <!--Production dependencies-->
             <dependency>
                 <groupId>com.google.gag</groupId>
                 <artifactId>gag</artifactId>
                 <version>1.0.1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.code.findbugs</groupId>
+                <artifactId>jsr305</artifactId>
+                <version>2.0.1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

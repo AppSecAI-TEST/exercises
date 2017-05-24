@@ -19,6 +19,6 @@ public class DirReductionTest {
     @Test
     public void invalidArgs() throws Exception {
         assertThat(DirReduction.dirReduc(new String[]{})).isEqualTo(new String []{});
-        assertThat(DirReduction.dirReduc(new String[]{""})).isEqualTo(new String []{});
+        assertThat(DirReduction.dirReduc(new String[]{""})).isEqualTo(new String []{""});
     }
 }

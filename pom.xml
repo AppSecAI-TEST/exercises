@@ -15,6 +15,7 @@
         <module>datastructure</module>
         <module>algorithms</module>
         <module>spike</module>
+        <module>designpatterns</module>
     </modules>
 
     <dependencyManagement>

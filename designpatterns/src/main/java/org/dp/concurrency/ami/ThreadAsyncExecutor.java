@@ -69,7 +69,7 @@ public class ThreadAsyncExecutor implements AsyncExecutor {
             this.state = State.FAILED;
             this.callback.ifPresent(ac -> ac.onComplete(null, Optional.of(e)));
             synchronized (lock) {
-                notifyAll();
+                lock.notifyAll();
             }
         }
 

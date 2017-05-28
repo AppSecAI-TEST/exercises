@@ -1,8 +1,7 @@
-package org.designpatterns.abstractdoc;
+package org.dp.structural.abstractdoc;
 
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Stream;

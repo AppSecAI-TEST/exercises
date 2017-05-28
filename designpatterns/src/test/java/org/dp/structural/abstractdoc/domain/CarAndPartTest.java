@@ -1,4 +1,4 @@
-package org.designpatterns.abstractdoc.domain;
+package org.dp.structural.abstractdoc.domain;
 
 
 import org.junit.Test;

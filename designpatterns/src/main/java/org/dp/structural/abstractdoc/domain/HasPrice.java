@@ -1,6 +1,6 @@
-package org.designpatterns.abstractdoc.domain;
+package org.dp.structural.abstractdoc.domain;
 
-import org.designpatterns.abstractdoc.Document;
+import org.dp.structural.abstractdoc.Document;
 
 import java.util.Optional;
 

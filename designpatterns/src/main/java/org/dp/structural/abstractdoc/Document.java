@@ -1,4 +1,4 @@
-package org.designpatterns.abstractdoc;
+package org.dp.structural.abstractdoc;
 
 import java.util.Map;
 import java.util.function.Function;

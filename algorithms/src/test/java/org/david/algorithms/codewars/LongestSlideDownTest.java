@@ -1,5 +1,6 @@
 package org.david.algorithms.codewars;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -7,6 +8,7 @@ import static org.junit.Assert.*;
 /**
  * Created by David Marques on 08/06/2017.
  */
+@Ignore
 public class LongestSlideDownTest {
     @Test
     public void test() {

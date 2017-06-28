@@ -10,6 +10,7 @@
 
     <properties>
         <slf4j-api.version>1.7.24</slf4j-api.version>
+        <logback.version>1.0.7</logback.version>
         <findbug.version>2.0.1</findbug.version>
         <google-gag.version>1.0.1</google-gag.version>
         <mockito-core.version>1.10.19</mockito-core.version>
@@ -70,7 +71,16 @@
                 <artifactId>slf4j-simple</artifactId>
                 <version>${slf4j-api.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
